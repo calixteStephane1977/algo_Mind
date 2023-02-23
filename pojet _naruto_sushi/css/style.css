@@ -1,0 +1,35 @@
+nav {
+  position: relative !important;
+  position: sticky;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+footer {
+  color: rgb(138, 132, 132);
+}
+
+.header-icons-noti {
+  line-height: 17px;
+  justify-content: end;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: #dc3545;
+  font-family: Montserrat-Medium;
+  font-size: 15px;
+  position: absolute;
+}
+h5 {
+  font-size: 1rem;
+}
+
+img.d-block.w-100 {
+  /* top: 50%; */
+  transform: translateY(-20%);
+  bottom: initial;
+}
+
